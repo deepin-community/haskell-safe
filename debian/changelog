@@ -1,0 +1,180 @@
+haskell-safe (0.3.19-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Mon, 17 Aug 2020 12:49:01 +0300
+
+haskell-safe (0.3.18-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 30 May 2020 17:13:45 -0400
+
+haskell-safe (0.3.17-2) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+  [ Ilias Tsitsimpis ]
+  * Bump debhelper compat level to 10
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 21:19:56 +0300
+
+haskell-safe (0.3.17-1) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 16:58:42 -0400
+
+haskell-safe (0.3.15-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Thu, 06 Jul 2017 17:36:37 -0400
+
+haskell-safe (0.3.14-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sun, 18 Jun 2017 02:10:37 -0400
+
+haskell-safe (0.3.9-5) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:35:54 -0400
+
+haskell-safe (0.3.9-4) experimental; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Use secure (https) uri in Vcs-Git field in 'debian/control'
+  * Bump standards version to 3.9.8 (no changes needed)
+  * Convert `debian/copyright' to dep5 format
+
+  [ Clint Adams ]
+  * Temporarily build-depend on ghc 8.
+
+ -- Clint Adams <clint@debian.org>  Fri, 14 Oct 2016 14:02:06 -0400
+
+haskell-safe (0.3.9-3) unstable; urgency=medium
+
+  * Switch Vcs-Git/Vcs-Browser headers to new location.
+
+ -- Clint Adams <clint@debian.org>  Thu, 03 Dec 2015 14:55:01 -0500
+
+haskell-safe (0.3.9-2) experimental; urgency=medium
+
+  * Bump standards-version to 3.9.6
+  * Depend on haskell-devscripts >= 0.10 to ensure that this package
+    builds against GHC in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 20 Aug 2015 10:28:37 +0200
+
+haskell-safe (0.3.9-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 29 Jun 2015 13:21:43 +0200
+
+haskell-safe (0.3.8-3) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 27 Apr 2015 11:53:07 +0200
+
+haskell-safe (0.3.8-2) experimental; urgency=medium
+
+  * Depend on haskell-devscripts 0.9, found in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 20 Dec 2014 17:11:59 +0100
+
+haskell-safe (0.3.8-1) unstable; urgency=low
+
+  * Adjust watch file to new hackage layout
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 07 Sep 2014 19:07:32 +0200
+
+haskell-safe (0.3.3-3) unstable; urgency=low
+
+  * Enable compat level 9
+  * Use substvars for Haskell description blurbs
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 24 May 2013 12:51:55 +0200
+
+haskell-safe (0.3.3-2) experimental; urgency=low
+
+  * Depend on haskell-devscripts 0.8.13 to ensure this packages is built
+    against experimental
+  * Bump standards version, no change
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 14 Oct 2012 12:01:57 +0200
+
+haskell-safe (0.3.3-1) unstable; urgency=low
+
+  [ Erik de Castro Lopo ]
+  * debian/control: Fix typo in VCS-* fields.
+
+  [ Joachim Breitner ]
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Tue, 07 Feb 2012 22:53:52 +0100
+
+haskell-safe (0.3-1) unstable; urgency=low
+
+  [ Erik de Castro Lopo ]
+  * New upstream
+  * debian/control: Standards-Version 3.9.2 (no changes needed).
+
+  [ Marco Silva ]
+  * debian/source/format: Use 3.0 (quilt).
+  * Use ghc instead of ghc6
+
+ -- Erik de Castro Lopo <erikd@mega-nerd.com>  Tue,  3 May 2011 19:07:51 +1000
+
+haskell-safe (0.2-2) unstable; urgency=low
+
+  [ Erik de Castro Lopo ]
+  * debian/control:
+    - Maintainer is Debian Haskell Group.
+    - Add myself to uploaders.
+    - Add Vcs-Darcs entry.
+
+  [ Marco Túlio Gontijo e Silva ]
+  * debian/control: Change Priority: to extra.
+  * debian/watch: Use format that works for --download-current-version.
+  * debian/watch: Add .tar.gz to downloaded filename.
+  * debian/watch: Include package name in downloaded .tar.gz.
+  * debian/watch: Remove spaces, since they're not allowed by uscan.
+  * debian/control: Add field Provides: ${haskell:Provides} to -dev and
+    -prof packages.
+  * debian/control: Use Vcs-Browser: field.
+  * debian/control: Split dependencies in more than one line.
+  * debian/control: Remove dependency in hscolour, since it's now a
+    dependency of haskell-devscripts.
+  * debian/control: Remove haddock from Build-Depends:, since it's now a
+    Depends: of haskell-devscripts.
+  * debian/control: Bump Standards-Version: to 3.8.4, no changes needed.
+  * Use debian/compat 7.
+  * debian/control: Use more sintetic link in Homepage:.
+
+  [ Joachim Breitner ]
+  * Bump haskell-devscripts dependency to 0.7
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 20 Feb 2010 18:00:59 +0100
+
+haskell-safe (0.2-1) unstable; urgency=low
+
+  * Initial debian package. Closes: #482162.
+
+ -- Erik de Castro Lopo <erikd@mega-nerd.com>  Sun, 14 Jun 2009 16:22:43 +1000
